@@ -8,10 +8,8 @@
 <body>
 
     <div id="app">
-        <h1> {{message}} </h1>
-        <img v-bind:src="image">
-
-
+        <h1 :style="{ fontSize: '10rem', fontFamily: 'sans-serif', margin: '50px' }"> {{message}} </h1>
+        <img :src="image" :style="{ margin: '50px' }">
     </div>
     
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
